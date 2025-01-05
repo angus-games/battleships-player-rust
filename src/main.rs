@@ -1,5 +1,6 @@
 mod routes;
 mod services;
+mod models;
 
 use actix_web::{App, HttpServer};
 use crate::routes::{hello, guess, positions};
